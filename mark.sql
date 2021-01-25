@@ -1,0 +1,6 @@
+CREATE OR REPLACE  PROCEDURE avg_pr(m1 IN NUMBER ,m2 IN NUMBER ,avgr OUT NUMBER)
+IS
+BEGIN
+avgr:=(m1+m2)/2;
+END;
+/
